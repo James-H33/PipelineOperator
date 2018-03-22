@@ -1,0 +1,16 @@
+{
+  "name": "pipeline-operator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output.js",
+  "scripts": {
+    "start": "babel pipe.js --out-file output.js && node output.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-stage-1": "^7.0.0-beta.42"
+  }
+}
