@@ -13,7 +13,7 @@ console.log(result); // 12
 
 const capitalize = str => str[0].toUpperCase() + str.substring(1);
 const splitOnSpaces = str => str.trim().split(' ');
-const getLastOfArr = arr => arr[arr.length - 1];
+const getLastOfArr = arr => arr.pop();
 
 const lastName = 'albert einstein'
   |> splitOnSpaces
