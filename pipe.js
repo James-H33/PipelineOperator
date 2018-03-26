@@ -20,7 +20,8 @@ const lastName = 'albert einstein'
   |> getLastOfArr
   |> capitalize
 
-console.log(lastName);
+console.log(lastName); // Einstein
 
+// without pipeline operator
 // console.log(capitalize(getLastOfArr(splitOnSpaces('albert einstein'))));
  
